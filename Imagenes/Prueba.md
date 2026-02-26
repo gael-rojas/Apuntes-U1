@@ -8,10 +8,11 @@ Un gráfico es cuando existe algún trazo o marca que han sido hechos con intenc
 ## Decada de los 50´s
 
 - 1950: El artista y matemático Ben Laposky crea las primeras imágenes gráficas mediante osciloscopios. Poco después, el MIT desarrolla la Whirlwind Computer, la primera capaz de procesar video en tiempo real e interactuar mediante un dispositivo revolucionario: el "lápiz óptico" (light pen).
-  ![Imagen MIT](1.1.1.png)
+  ![Imagen MIT](1.1.1.jpeg)
 
 - 1955: Nace el sistema SAGE en la Guerra Fría, capaz de procesar datos de distintos radares para mostrar una imagen unificada del espacio aéreo.
-  ![Imagen del sistema SAGE](1.1.2.png)
+
+  ![Imagen del sistema SAGE](1.1.2.jpeg)
   
 - 1958-1959: El cine y la industria dan sus primeros pasos digitales. John Whitney (padre de la animación por computadora) crea una secuencia animada para la película Vértigo, y General Motors desarrolla DAC-1, el primer programa de diseño asistido por computadora (CAD) para digitalizar modelos de autos en 3D.
 
@@ -20,7 +21,9 @@ Un gráfico es cuando existe algún trazo o marca que han sido hechos con intenc
 - 1960: William Fetter acuña oficialmente el término "Computer Graphics".
 
 - 1962: Nace Spacewar, uno de los primeros videojuegos multijugador, y Jack Bresenham desarrolla un algoritmo matemático fundamental para trazar líneas rectas en pantallas de píxeles.
-  ![Imagen de SpaceWars](1.1.3.png)
+  
+  ![Imagen de SpaceWars](1.1.3.jpeg)
+  
 
 - 1963: Ivan Sutherland diseña Sketchpad, considerado el padre del CAD actual y precursor de la interfaz gráfica de usuario (GUI), integrando conceptos como el "zoom". En este mismo año, se materializa el primer prototipo de mouse (ratón).
 
@@ -29,7 +32,8 @@ Un gráfico es cuando existe algún trazo o marca que han sido hechos con intenc
 ## Decada de los 70´s
 
 - 1971-1975: Se perfeccionan técnicas para dar volumen y realismo a los objetos 3D: surgen el sombreado de Gouraud y el sombreado de Phong, además del mapeo de texturas.
-  ![Sombreado](1.1.4.png)
+  
+  ![Sombreado](1.1.4.jpeg)
 
 - 1972: Atari lanza Pong, el primer videojuego en lograr un éxito comercial masivo.
 
@@ -42,7 +46,8 @@ Un gráfico es cuando existe algún trazo o marca que han sido hechos con intenc
 - 1982: La película Tron hace historia al incluir 15 minutos ininterrumpidos de gráficas generadas totalmente por computadora (CGI).
 
 - 1984-1986: Surge Polhemus, el primer software de diseño 3D, y Pixar lanza su icónico cortometraje fundacional, Luxo Jr.
-![Imagen del software polhemus](1.1.5.png)
+  
+![Imagen del software polhemus](1.1.5.jpeg)
 - 1987-1989: La industria tecnológica comienza a estandarizarse con la llegada del formato de salida de video VGA (introducido por IBM) y la fundación de la asociación VESA.
 
 ## Decada de los 90´s
@@ -54,7 +59,8 @@ Un gráfico es cuando existe algún trazo o marca que han sido hechos con intenc
 - 1995: Pixar estrena Toy Story, la primera película animada generada en su totalidad por computadora.
 
 - 1999: NVIDIA lanza su primera familia de tarjetas GeForce 256.
-![Imagen de la tarjeta grafica](1.1.6.png)
+  
+![Imagen de la tarjeta grafica](1.1.6.jpeg)
 
 ## Decada de los 2000´s y la actualidad
 
@@ -196,9 +202,11 @@ Se trata de un formato de imagen en bruto. No está pensado para las páginas we
 # 1.6 Procesamiento de mapas de bits.
 Existen dos tipos principales de imágenes digitales: los mapas de bits, en los que la imagen se crea mediante una rejilla de puntos de diferentes colores y tonalidades, y los gráficos vectoriales, en los que la imagen se define por medio de diferentes funciones matemáticas.
 Las imágenes de mapa de bits (bitmaps o imágenes raster) están formadas por una rejilla de celdas, a cada una de las cuales, denominada píxel (Picture Element, Elemento de Imagen), se le asigna un valor de color y luminancia propios, de tal forma que su agrupación crea la ilusión de una imagen de tono continuo.
+
 ![Imagen de mapa de bits](1.1.17.png)
 
 Un píxel es una unidad de información, pero no una unidad de medida, ya que no se corresponde con un tamaño concreto. Un píxel puede ser muy pequeño (0.1 milímetros) o muy grande (1 metro).
+
 ![Imagen de  bits](1.1.18.png)
 
 Una imagen de mapa de bits es creada mediante una rejilla de píxeles única. Cuando se modifica su tamaño, se modifican grupos de píxeles, no los objetos o figuras que contiene, por lo que estos suelen deformarse o perder alguno de los píxeles que los definen. Por lo tanto, una imagen de mapa de bits está diseñada para un tamaño determinado, perdiendo calidad si se modifican sus dimensiones, dependiendo esta pérdida de la resolución a la que se ha definido la imagen.
